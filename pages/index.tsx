@@ -30,24 +30,36 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <a href="#" className={styles.card}>
-            <h2>Blog &rarr;</h2>
-            <p>Conteúdos sobre o universo do desenvolvimento web.</p>
-          </a>
-
-          <a href="#" className={styles.card}>
-            <h2>Portifólio &rarr;</h2>
-            <p>Projetos pessoais e profissionais.</p>
-          </a>
-
-          <a href="#" className={styles.card}>
+          <a className={styles.cardDisabled}>
             <h2>Profile &rarr;</h2>
             <p>Perfil profissional e características.</p>
+            <div className={styles.ribbon}>
+              EM BREVE
+            </div>
           </a>
 
-          <a href="#" className={styles.card}>
+          <a className={styles.cardDisabled}>
             <h2>Skills &rarr;</h2>
             <p>Habilidades e competências.</p>
+            <div className={styles.ribbon}>
+              EM BREVE
+            </div>
+          </a>
+
+          <a className={styles.cardDisabled}>
+            <h2>Blog &rarr;</h2>
+            <p>Conteúdos sobre o universo do desenvolvimento web.</p>
+            <div className={styles.ribbon}>
+              EM BREVE
+            </div>
+          </a>
+
+          <a className={styles.cardDisabled}>
+            <h2>Portifólio &rarr;</h2>
+            <p>Projetos pessoais e profissionais.</p>
+            <div className={styles.ribbon}>
+              EM BREVE
+            </div>
           </a>
         </div>
       </main>
